@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendors/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg text-white-50">
+        <div class="container d-felx justify-content-between">
+        <div><a class="navbar-brand text-white-50" href="#">E-shop</a></div>
+        <div class="p-1 nav-mennu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        </div>
+      </nav>
+      <aside class="py-5">
+        <div class="container">
+            <ul class="list-unstyled fs-3 text-center d-flex justify-content-between">
+                <li><a class="text-decoration-none text-white-50 p-3 sort-up" href="#"><i class="fa-solid fa-arrow-trend-up"></i></a></li>
+                <li><a class="text-decoration-none text-white-50 p-3 sort-down" href="#"><i class="fa-solid fa-arrow-trend-down"></i></a></li>
+            </ul>
+            <form class="d-flex mb-2" role="search">
+                <input class="form-control me-2 inp-one" type="search" placeholder="Search By Price" aria-label="Search">
+                <button class="btn btn-outline-success btn-one" type="submit">Search</button>
+              </form>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2 inp-two" type="search" placeholder="Search byName" aria-label="Search">
+                <button class="btn btn-outline-success btn-two" type="submit">Search</button>
+              </form>
+        </div>
+      </aside>
+      <section>
+        <div class="container pt-4 text-white-50">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 items-container">
+            </div>
+        </div>
+      </section>
+    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendors/all.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    overflow: hidden;
+    background: #181a1b;
+}
+aside {
+    width: 30%;
+    position: absolute;
+    top: 5%;
+    right: -30%;
+    z-index: 1090;
+    height: 95%;
+    transition: 0.3s;
+}
+aside,
+nav {
+    background: #1b1e1f;
+    color: white;
+}
+.active {
+    right: 0;
+}
+.nav-mennu{
+    cursor: pointer;
+}
